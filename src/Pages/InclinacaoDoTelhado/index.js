@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import HeaderMenu from '../../Layouts/Header'
+import ExplicacaoTelhado from './Text'
 import { CalculadoraCard, CalcButton } from '../../styles/CalculadoraCard'
 import { TextField, InputAdornment, Container } from '@material-ui/core';
 
@@ -90,6 +91,8 @@ export default class InclinacaoDoTelhado extends Component {
           </CalculadoraCard>
         </Container>
         {/* TO DO: ADS */}
+
+        <ExplicacaoTelhado />
       </>
     ) 
   }
